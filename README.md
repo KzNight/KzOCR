@@ -3,7 +3,7 @@
 
 # OCR功能介绍：
 阿里云OCR 免费100次，第一次购买500次只需要1分钱。相当于免费600次。
-https://market.aliyun.com/apimarket/detail/cmapi028554
+[阿里云OCR]:https://market.aliyun.com/apimarket/detail/cmapi028554
 在代码的开始，需要手动配置阿里云OCR的APP_CODE.
 APP_CODE = "XXX"
 配置完成后，在命令行使用 python KzOCR.py 运行打开图形化页面，使用F4快捷键即可快速截图选中文字进行识别，识别结果自动出现在文本框中。
@@ -16,6 +16,6 @@ APP_CODE = "XXX"
             appid = 'xx'  #自己的id
             appkey = 'xx' #自己的key
             url = 'https://fanyi-api.baidu.com/api/trans/vip/translate'
-可以去https://api.fanyi.baidu.com/manage/developer
+可以去[百度翻译接口]:https://api.fanyi.baidu.com/manage/developer
 个人用户实名后，一个月有100万字符免费翻译。
 ![F5翻译文字](2（F5翻译）.PNG)
