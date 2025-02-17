@@ -15,7 +15,7 @@ import json
 from hashlib import md5
 
 # 阿里云OCR配置
-APP_CODE = "9b1c13fc02f54c96a3b33ff437f646ae"
+APP_CODE = "xxx"
 REQUEST_URL = "https://gjbsb.market.alicloudapi.com/ocrservice/advanced"
 
 class ScreenSelector:
@@ -159,8 +159,8 @@ class OCRApp:
             self.update_status("正在翻译...")
             
             # 百度API配置
-            appid = '20250217002276476'  #自己的id
-            appkey = '4Bw2B2NDwVKb3nZikcM8' #自己的key
+            appid = 'xxx'  #自己的id
+            appkey = 'xxx' #自己的key
             url = 'https://fanyi-api.baidu.com/api/trans/vip/translate'
             
             # 自动判断翻译方向
